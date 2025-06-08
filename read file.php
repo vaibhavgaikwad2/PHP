@@ -8,7 +8,7 @@
 // fclose($myfile);
 
 if(isset($_FILES['file'])){
-    $file=$_FILES['files']['tmp_name'];
+    $file=$_FILES['file']['tmp_name'];
     $myfile=fopen($file,"r");
 
     echo fread($myfile,filesize($file));
