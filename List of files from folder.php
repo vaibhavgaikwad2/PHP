@@ -20,7 +20,10 @@ foreach ($new_items as $item){
     echo "<br/>";
 }
 
-
+foreach ($new_items as $item){
+    echo "<a href=./files/$item>$item</a>";
+    echo "<br/>";
+}
 
 
 
