@@ -17,6 +17,8 @@
 // httponly  → (Optional) If true, cookie is accessible only through HTTP (not JavaScript). Adds security.
 
 
+
+
 // ✅ Example:
 setcookie("user", "Vaibhav", time() + 3600, "/", "example.com", true, true);
 
