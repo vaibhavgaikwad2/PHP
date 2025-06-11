@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Handling</title>
 </head>
 <body>
-    <form actio = "" method="post" >
+    <form action = "./form_handling.php" method="post" >
         <input type="text" name="name" placeholder="enter user name">
         <br/>
         <br/>
@@ -16,6 +14,28 @@
         <input type="password" name="password" placeholder="enter correct password">
         <br/>
         <br/>
+        <input type="checkbox" name="skills[]" value="php"><spam>PHP</spam>
+        <br/>
+        <input type="checkbox" name="skills[]" value="java"><spam>JAVA</spam>
+        <br/>
+        <input type="checkbox" name="skills[]" value="cpp"><spam>CPP</spam>
+        <br/>
+        <input type="checkbox" name="skills[]" value="js"><spam>JavaScript</spam>
+        <br/>
+        <br/>
+        <input type="radio" name="gender" value="male"><spam>Male</spam>
+        <br/>
+        <input type="radio" name="gender" value="female"><spam>Female</spam>
+        <br/>
+        <br/>
+        <input type="text" name="city" placeholder="enter your city">
+        <br/>
+        <br/>
+        <textarea name="bio"></textarea>
+        <br/>
+        <br/>
+        <button>SignUp</button>
+        
         
     </form>
 </body>
