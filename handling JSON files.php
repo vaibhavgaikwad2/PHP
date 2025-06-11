@@ -10,8 +10,11 @@ it is inherited from objects of js thats why its name is JSON
 to convert dtype into json use json_encode
 */
 
+$user = ["name"=>"vaibhav", "age"=>21];
+// converting this array into json 
+$user_JSON =json_encode($user);
 
-
+echo $user_JSON;
 
 
 ?>
