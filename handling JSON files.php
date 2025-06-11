@@ -15,6 +15,14 @@ $user = ["name"=>"vaibhav", "age"=>21];
 $user_JSON =json_encode($user);
 
 echo $user_JSON;
+echo "<br/>";
 
 
+// json_decode is used to convert the json objects into php objects or in array
+
+$jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
+
+$php_obj=json_decode($jsonobj);
+
+print_r($php_obj);
 ?>
