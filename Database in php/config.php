@@ -7,4 +7,6 @@ $password = 'Vaibhav@123456';
 $conn = new PDO("mysql:host = $host;dbname=institute",$username,$password);
 $conn -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 echo 'connection done';
+echo "<br>";
+echo "<br>";
 ?>
