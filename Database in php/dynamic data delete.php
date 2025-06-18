@@ -28,4 +28,13 @@ echo "<tr>
     </tr>";
 }
 echo "</table>";
+
+if (isset($_POST['delete'])) {
+    $rollno = $_POST['delete'];
+    $query = $conn->prepare("DELETE FROM student WHERE rollno = ?");
+    $query->execute([$rollno]);
+}
+
+    
+
 ?>
