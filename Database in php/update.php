@@ -31,6 +31,12 @@ if (isset($_POST['update'])) {
     } else {
         echo "Update failed!";
     }
+
+    if($update_query->execute()){
+        header('location:dynamic data delete.php'); // --> this header function is used for redirection
+    }else{
+        echo "update failed";
+    }
 }
 ?>
 

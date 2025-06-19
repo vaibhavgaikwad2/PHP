@@ -14,6 +14,7 @@ echo "<tr>
         <th>Grade</th>
         <th>City</th>
         <th>Delete</th>
+        <th>Update</th>
     </tr>";
 foreach($students as $student){
 echo "<tr>
