@@ -25,6 +25,7 @@ echo "<tr>
         <td><form method='post'>
         <button name=delete value=".$student['rollno'].">Delete</button>
         </form></td>
+        <td><a href='update.php? id=".$student['rollno']."'>Update</a></td>
     </tr>";
 }
 echo "</table>";
