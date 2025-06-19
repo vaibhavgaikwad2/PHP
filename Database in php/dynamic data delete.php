@@ -15,6 +15,7 @@ echo "<tr>
         <th>City</th>
         <th>Delete</th>
         <th>Update</th>
+        <th><td><a href='search.php?'>Search</a></td></th>
     </tr>";
 foreach($students as $student){
 echo "<tr>
@@ -27,6 +28,7 @@ echo "<tr>
         <button name=delete value=".$student['rollno'].">Delete</button>
         </form></td>
         <td><a href='update.php? id=".$student['rollno']."'>Update</a></td>
+        
     </tr>";
 }
 echo "</table>";
