@@ -7,7 +7,7 @@ class Math{
     2) file name = class name
     3)
     */
-
+    public $val = 30; //--> varible declaration
     function sum(){
         echo 10+20;
     }
