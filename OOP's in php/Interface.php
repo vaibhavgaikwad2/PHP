@@ -18,4 +18,14 @@ class Dog implements Animal{
         echo "Barks ";
     }
 }
+
+/* 
+Difference between Interfaces and abstract class
+
+interfaces cannot have properties while abstract classes can
+
+All interface methods must be public while abstract methods are public or protected
+
+All methods in an interface are abstract so they cannot be implementednin code and the abstract keyword is not necessary
+*/
 ?>
