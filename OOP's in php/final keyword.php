@@ -4,7 +4,7 @@
 //by using this keyword class cannot be inherited
 
 final class Car{
-    echo "cant be inherited";
+    // "cant be inherited";
     final function Name(){
         echo "Car Name";
     }
