@@ -6,10 +6,16 @@ class Properties{
 
     public $name="Vaibhav";
 
+
+    function getname(){
+       echo $this->name; 
+    }
 }
 $p1=new Properties();
 
 echo $p1->name;
+echo "<br/>";
+$p1->getname();
 
 
 ?>
