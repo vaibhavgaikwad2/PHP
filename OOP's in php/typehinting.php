@@ -16,6 +16,7 @@ Why Use It?
 
     reduces servers time by handling error before code execution
 */
+// specify type of array in function's parameter
 
 
 ?>
