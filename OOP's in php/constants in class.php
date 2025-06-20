@@ -13,4 +13,5 @@ It’s commonly called the Scope Resolution Operator
 syntax --> echo class_name::const,method name;
 */
 
+
 ?>
