@@ -18,5 +18,12 @@ Why Use It?
 */
 // specify type of array in function's parameter
 
+function Fruit(string $name){
+    echo $name;
+}
+
+Fruit("apple");
+fruit([123]);  // this gives error because we passed array in it
+
 
 ?>
